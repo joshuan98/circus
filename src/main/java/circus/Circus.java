@@ -5,15 +5,8 @@ import circus.animal.Duck;
 import circus.animal.Parrot;
 
 public class Circus {
-    private static Animal[] animals = {
-            new Duck(),
-            new Parrot()
-    };
-    private static Equipment[] equipments = {
-            new Ladder(50),
-            new Cannon(5),
-            new Cannon(100)
-    };
+    private static Animal[] animals = {new Duck(), new Parrot()};
+    private static Equipment[] equipments = {new Ladder(50), new Cannon(5), new Cannon(100)};
 
     private static void makeAnimalsTalk() {
         for (Animal a : animals) {
