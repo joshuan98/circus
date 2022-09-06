@@ -31,6 +31,8 @@ public class Trainer {
         if (bird instanceof Duck) {
             Duck d = (Duck) bird;
             d.swim();
+        } else {
+            System.out.println("I'm not a duck! I'm not a duck");
         }
     }
 }

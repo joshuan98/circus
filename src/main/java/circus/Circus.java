@@ -18,6 +18,7 @@ public class Circus {
             new Cannon(100)
     };
 
+
     private static void makeAnimalsTalk() {
         for (Animal a : animals) {
             System.out.println(a);
