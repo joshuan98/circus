@@ -3,13 +3,14 @@ package circus;
 import circus.animal.Animal;
 import circus.animal.Bird;
 import circus.animal.Duck;
+import circus.animal.Parrot;
 
 public class Trainer {
     public static void main(String[] args) {
         Duck d = new Duck();
         getToSpeak(d);
 
-        Bird b = (Bird) d; // upcasting
+        Bird b = (Bird) d;  // upcasting
         getToSpeak(b);
 
         Animal a = (Animal) b; // upcasting
@@ -19,9 +20,7 @@ public class Trainer {
         getToSpeak(d2);
 
         train(new Duck());
-        // train(new Parrot());
-
-
+        // train(new animal.Parrot());
     }
 
     private static void getToSpeak(Animal animal) {
